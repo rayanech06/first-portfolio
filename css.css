@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+    /*section 1*/
+.section1{
+    margin-top: 5px;
+    text-align: center;
+    margin-top: 5px;
+    background-color: aliceblue;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+h1{
+    font-style: italic;
+    font-weight: 500;
+    color: grey;
+}
+h2{
+    margin-top: 5px;
+    padding-top: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+.profil{
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(12, 12, 110);
+    box-shadow: 0 15px 10px rgba(0,0,0,0.3);
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    
+}
+.profil:hover{
+    transform: scale(1.06);
+}
+
+.nav-li{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    gap: 150px;
+    margin-right: 50px;
+    padding-right:  50px;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    background-color: rgb(171, 171, 175);
+    padding: 10px;
+    border-radius: 15px;   
+    
+}
+li a:hover{
+    color: wheat;
+    background: #000;
+}
+span{
+    color: rgb(12, 12, 110);
+    font-weight: 600;
+}
+/*.social{
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+
+}*/
+.fa-whatsapp:hover{
+    color: rgb(100, 228, 100);
+}
+.fa-instagram:hover{
+    color: rgb(197, 60, 140);
+}
+.fa-linkedin:hover{
+    color:rgb(55, 55, 172);
+}
+
+.social a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 5px 4px 8px rgba(192, 86, 86, 0.2);
+    transition: transform 0.3 ease ,background-color 0.3s color 0.3s;
+    font-size: 26px;
+    margin: 0 10px;
+    
+    
+}
+.social a:hover{
+    transform: scale(1.2);
+}
+.social a i{
+    font-size: 30px;
+    transition: transform 0.3s ease , color 0.2s ease;
+}
+
+.whatsapp i{
+    color: rgb(100, 228, 100); ;
+}
+.whatsapp:hover i{
+    color: rgb(100, 228, 100);
+    
+}
+.instagram i{
+    color: rgb(197, 60, 140);
+}
+.instagram:hover i{
+    color:  rgb(197, 60, 140);
+    
+}
+.linkedin i{
+    color: rgb(55, 55, 172);
+}
+.linkedin:hover i{
+    color:rgb(55, 55, 172);
+    
+}
+    /*section 2*/
+ .section2{
+    margin-top: 3px;
+    background-color: aliceblue;
+    padding-top: 16px;
+    padding-bottom: 16px;
+} 
+.section2 h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    object-fit:contain;
+    margin-left: 35px;
+}
+/*.container img{
+    padding-right: 20px;
+    width: 50%;
+}
+.container p{
+    margin-left: 20px;
+    padding-left: -50%;   
+}*/
+#p2{
+    font-size: 25px;
+    margin-left: 20px;
+   
+    margin-right: 20px;
+    color: rgb(8, 8, 8);
+}
+.profil{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+    /*section 3*/
+.section3{
+    margin-top: 3px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom:3%;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.skills{
+
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 1%;
+    color: rgb(120, 120, 245);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#skills{
+    
+    list-style-type: none;
+    display:contents;
+    padding-bottom: 50px;
+}
+
+.d{
+    width: 45%;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(182, 181, 181);
+    margin-bottom: 30px;
+    margin-top: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.d ul{
+    list-style-type: none;
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+.d:hover{
+   background-color: rgb(252, 34, 34);
+   transform: translateY(-10px);
+
+}
+
+
+/*
+/*section4*/
+ .section4{
+    margin-top: 3px;
+    background-color: aliceblue;
+    padding-top: 16px;
+    padding-bottom: 16px;
+} 
+.form{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(182, 181, 181);
+    
+    border-radius: 15px;
+}
+input{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(66, 66, 66);
+}
+
+textarea{
+     margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 15px;
+    padding-left: 15%;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(66, 66, 66);
+}
+.form:hover{
+    box-shadow: 4px 2px 6px rgba(95, 66, 66, 0.5);
+    scale: calc(1.02);
+    transition: all 0.4s ease-in-out;
+}
+input:hover{
+    background-color: antiquewhite;
+    align-content: start;
+    
+
+}
+textarea:hover{
+    background-color: antiquewhite;
+    
+}
+#btn{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    background-color: rgb(171, 171, 175);
+    padding:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 15px; 
+   
+    
+}
+#btn:hover{
+    color: wheat;
+    background: #000;
+    scale: (0.1);
+    box-sizing: 4 6 8 5 red;
+
+    
+}
+label{
+    font-size: 150%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #222;
+    color: white;
+}
+
+
+ 
+    /*footer*/
+    
+footer{
+    margin-top: 3px;
+    background-color: #7b72ac ;  
+    color: white;
+    height: 230px;    
+    padding: 8px;
+    font-size: 20px;
+} 
+
+#pfooter{
+    font-size: 17px;
+    margin-right: 81%;
+    margin-top: 15px;
+    color: hsl(0, 0%, 0%);
+    padding: 0 auto;
+}
+#h2-f{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+ul a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    background-color: rgb(12, 12, 110);
+}
+.list-footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 15px;
+
+}
+.li{
+    margin-left: 200px;
+    
+}
+.li a:hover{
+    background-color: #007BFF;
+    color: white;
+    transform: scale(1.1);
+     
+}
+
+.social-2 a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 5px 4px 8px rgba(192, 86, 86, 0.2);
+    transition: transform 0.3 ease ,background-color 0.3s color 0.3s;
+    font-size: 26px;
+    margin: 0 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.social-2 a:hover{
+    transform: scale(1.2);
+    
+    
+}
+.social-2 a i{
+    font-size: 30px;
+    transition: transform 0.3s ease , color 0.2s ease;
+}
